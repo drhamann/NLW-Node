@@ -1,2 +1,0 @@
-# NLW-Node
-Nlw06
