@@ -13,9 +13,11 @@ Aula https://nextlevelweek.com/episodios/node/aula-1/edicao/6
  * Routes / Query / Body
  * Knex
 
+## Commands 
 yarn add typeorm reflect-metadata sqlite3
 yarn typeorm migration:revert
 yarn typeorm migration:run
+yarn typeorm migration:create -n CreateTags
 
 ### Regras
 * Cadastro de usuario

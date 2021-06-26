@@ -1,17 +1,13 @@
 import {Entity, PrimaryColumn, Column, CreateDateColumn, UpdateDateColumn} from "typeorm";
 import { v4 as uuid} from "uuid"
 
-@Entity("users")
-export class User{
+@Entity("tags")
+export class Tag{
     @PrimaryColumn()
     readonly id: string;
     @Column()
     name: string;
-    @Column()
-    email: string;
-    @Column()
-    admin:boolean;
-    
+       
     @CreateDateColumn()
     created_at: Date;
     @UpdateDateColumn()
