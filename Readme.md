@@ -7,8 +7,7 @@ Aula https://nextlevelweek.com/episodios/node/aula-1/edicao/6
  * Iniciar comandos
  * Usar o pacote express para gerar rotas
 
- ## Aula 2
- 
+ ## Aula 2 
  * Banco
  * Routes / Query / Body
  * Knex
@@ -18,6 +17,8 @@ yarn add typeorm reflect-metadata sqlite3
 yarn typeorm migration:revert
 yarn typeorm migration:run
 yarn typeorm migration:create -n CreateTags
+yarn add @types/jsonwebtoken -d
+yarn add jsonwebtoken
 
 ### Regras
 * Cadastro de usuario
@@ -31,3 +32,10 @@ yarn typeorm migration:create -n CreateTags
     * Não é permetido cadastrar elogio para si
     * Não é permetido cadastrar elogios para usuarios inexistentes ou invalidos
 * Deve possuir autenticação para cadastro
+
+## Aula 4
+
+* JWT
+    * jwt.io
+    * Header
+    * Payload
