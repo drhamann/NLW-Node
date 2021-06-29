@@ -22,7 +22,7 @@ export class Compliment{
 
     @JoinColumn({name: "user_receiver"})
     @ManyToOne(() => User)
-    userReiver : User;
+    userReciver : User;
   
     @Column()
     tag_id: string;
